@@ -2,7 +2,7 @@ FROM oscarhult/jre:17
 
 EXPOSE 6567/tcp 6567/udp
 
-ARG MINDUSTRY_VERSION=v126.2
+ARG MINDUSTRY_VERSION=v140.4
 
 ADD https://github.com/Anuken/Mindustry/releases/download/${MINDUSTRY_VERSION}/server-release.jar /server.jar
 
